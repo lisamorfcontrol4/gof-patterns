@@ -1,3 +1,4 @@
+import factory.FactoryFactory;
 import game.MazeGame;
 
 import java.util.Scanner;
@@ -9,16 +10,13 @@ public class App {
         System.out.println("Welcome to the maze game");
         System.out.println("What type of maze would you like to play?");
         System.out.println("1 - regular maze");
+        System.out.println("2 - Enchanted maze");
         int gameType = -1;
         if(in.hasNextInt()){
             gameType = in.nextInt();
         }
 
-        if(gameType != 1){
-            throw new IllegalArgumentException("Not a supported game type");
-        }
-
         MazeGame mazeGame = new MazeGame();
-        mazeGame.createMaze();
+        mazeGame.createMaze(FactoryFactory.createFactory(gameType));
     }
 }
