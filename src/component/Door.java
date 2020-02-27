@@ -1,3 +1,5 @@
+package component;
+
 public class Door extends MapSite {
     private boolean isOpen;
     private Room room1;

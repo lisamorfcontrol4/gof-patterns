@@ -1,3 +1,7 @@
+package game;
+
+import component.Room;
+
 import java.util.ArrayList;
 import java.util.List;
 

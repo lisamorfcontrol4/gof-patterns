@@ -1,5 +1,8 @@
+package component;
+
+import util.Direction;
+
 import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
 
 public class Room extends MapSite {
@@ -17,36 +20,11 @@ public class Room extends MapSite {
     }
 
     public void setSide(Direction direction, MapSite mapSite){
-        int position = 0;
-        switch(direction){
-            case NORTH:
-                position = 0;
-                break;
-            case EAST:
-                position = 1;
-                break;
-            case SOUTH:
-                position = 2;
-                break;
-            case WEST:
-                position = 3;
-                break;
-        }
-        sides[position] = mapSite;
+        sides[direction.getValue()] = mapSite;
     }
 
     public MapSite getSide(Direction direction){
-        switch(direction){
-            case NORTH:
-                return sides[0];
-            case EAST:
-                return sides[1];
-            case SOUTH:
-                return sides[2];
-            case WEST:
-                return sides[3];
-        }
-        throw new IllegalArgumentException("can't get here");
+        return sides[direction.getValue()];
     }
 
     @Override

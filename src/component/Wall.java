@@ -1,3 +1,5 @@
+package component;
+
 public class Wall extends MapSite {
 
     @Override

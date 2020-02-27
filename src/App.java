@@ -1,3 +1,5 @@
+import game.MazeGame;
+
 import java.util.Scanner;
 
 public class App {
