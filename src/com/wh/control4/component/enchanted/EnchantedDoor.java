@@ -1,7 +1,7 @@
-package component.enchanted;
+package com.wh.control4.component.enchanted;
 
-import component.Door;
-import component.Room;
+import com.wh.control4.component.Door;
+import com.wh.control4.component.Room;
 
 public class EnchantedDoor extends Door {
     private Spell spell;

@@ -1,6 +1,6 @@
-package component.enchanted;
+package com.wh.control4.component.enchanted;
 
-import component.Room;
+import com.wh.control4.component.Room;
 
 public class EnchantedRoom extends Room {
     private boolean hasTikiBirds;

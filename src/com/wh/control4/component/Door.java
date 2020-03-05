@@ -1,4 +1,4 @@
-package component;
+package com.wh.control4.component;
 
 public class Door extends MapSite {
     private boolean isOpen;

@@ -1,6 +1,6 @@
-package component;
+package com.wh.control4.component;
 
-import util.Direction;
+import com.wh.control4.util.Direction;
 
 import java.util.Arrays;
 import java.util.Objects;

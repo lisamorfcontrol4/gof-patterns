@@ -1,4 +1,4 @@
-package util;
+package com.wh.control4.util;
 
 public enum Direction {
     NORTH(0),

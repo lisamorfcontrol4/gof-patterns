@@ -1,6 +1,6 @@
-package game;
+package com.wh.control4.game;
 
-import component.Room;
+import com.wh.control4.component.Room;
 
 import java.util.ArrayList;
 import java.util.List;

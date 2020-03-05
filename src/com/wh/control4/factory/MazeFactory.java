@@ -1,9 +1,9 @@
-package factory;
+package com.wh.control4.factory;
 
-import component.Door;
-import component.Room;
-import component.Wall;
-import game.Maze;
+import com.wh.control4.component.Door;
+import com.wh.control4.component.Room;
+import com.wh.control4.component.Wall;
+import com.wh.control4.game.Maze;
 
 public class MazeFactory {
 

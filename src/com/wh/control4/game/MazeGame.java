@@ -1,10 +1,10 @@
-package game;
+package com.wh.control4.game;
 
-import component.Door;
-import component.Room;
-import factory.MazeFactory;
+import com.wh.control4.component.Door;
+import com.wh.control4.component.Room;
+import com.wh.control4.factory.MazeFactory;
 
-import static util.Direction.*;
+import static com.wh.control4.util.Direction.*;
 
 public class MazeGame {
 

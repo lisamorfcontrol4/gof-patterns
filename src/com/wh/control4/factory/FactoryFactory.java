@@ -1,4 +1,4 @@
-package factory;
+package com.wh.control4.factory;
 
 public class FactoryFactory {
 
@@ -6,7 +6,7 @@ public class FactoryFactory {
 
     public static MazeFactory createFactory(int number){
         if(number > FactoryFactory.supportedTypes){
-            throw new IllegalArgumentException("Not a supported game type");
+            throw new IllegalArgumentException("Not a supported com.wh.control4.game type");
         }
 
         return number == 1

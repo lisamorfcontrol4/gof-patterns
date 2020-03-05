@@ -1,10 +1,11 @@
-package factory;
+package com.wh.control4.factory;
 
-import component.Door;
-import component.Room;
-import component.enchanted.EnchantedDoor;
-import component.enchanted.EnchantedRoom;
-import component.enchanted.Spell;
+import com.wh.control4.component.Door;
+import com.wh.control4.component.Room;
+import com.wh.control4.component.enchanted.EnchantedDoor;
+import com.wh.control4.component.enchanted.EnchantedRoom;
+import com.wh.control4.component.enchanted.Spell;
+import com.wh.control4.component.enchanted.SpellTypes;
 
 public class EnchantedFactory extends MazeFactory {
 
@@ -16,7 +17,7 @@ public class EnchantedFactory extends MazeFactory {
 
     public Door createDoor(Room room1, Room room2) {
         EnchantedDoor enchantedDoor = new EnchantedDoor(room1, room2);
-        Spell spell = new Spell(false, "Alohomora", 2);
+        Spell spell = new Spell(false, SpellTypes.ALOHOMORA, 2);
         enchantedDoor.addSpell(spell);
         return enchantedDoor;
     }
