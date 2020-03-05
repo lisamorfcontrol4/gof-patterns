@@ -1,4 +1,4 @@
-package com.wh.control4.component.enchanted;
+package com.wh.control4.util;
 
 
 public enum SpellTypes {

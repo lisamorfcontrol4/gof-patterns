@@ -5,7 +5,7 @@ import com.wh.control4.component.Room;
 import com.wh.control4.component.enchanted.EnchantedDoor;
 import com.wh.control4.component.enchanted.EnchantedRoom;
 import com.wh.control4.component.enchanted.Spell;
-import com.wh.control4.component.enchanted.SpellTypes;
+import com.wh.control4.util.SpellTypes;
 
 public class EnchantedFactory extends MazeFactory {
 
